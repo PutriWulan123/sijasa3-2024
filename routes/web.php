@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('frontend.master');
+    return view('layout.master');
 });
 
 Route::get('/dashboard', function () {
