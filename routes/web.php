@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('layout.master');
+    return view('frontend.master');
 });
 
 Route::get('/dashboard', function () {
@@ -35,3 +35,5 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__.'/auth.php';
 
+//gol kategori
+Route::get('/kat-fasilitas', [StadionController::class, 'index'])->name('kategori.kat-fasilitas');

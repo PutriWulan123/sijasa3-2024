@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sijasa Banyuwangi</title>
+  <title>Index - Day Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -135,10 +135,6 @@
     <!-- About Section -->
     <section id="about" class="about section">
 
-      
-
-    </section><!-- /Cards Section --> --}}
-
     <!-- Clients Section -->
     <section id="clients" class="clients section light-background">
 
@@ -206,7 +202,6 @@
 
       <div class="container">
 
-        
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -214,7 +209,7 @@
               <div class="icon">
                 <i class="bi bi-activity"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="{{ route('kategori.kat-fasilitas')}}" class="stretched-link">
                 <h3>Stadion Diponegoro</h3>
               </a>
               <p>Stadion Diponegoro adalah stadion olahraga yang terletak di Kelurahan Penganjuran, Kecamatan Banyuwangi, Kabupaten Banyuwangi. Stadion ini sebelumnya bernama Stadion Jogopati.</p>

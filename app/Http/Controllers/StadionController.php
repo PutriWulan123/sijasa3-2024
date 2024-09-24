@@ -11,7 +11,10 @@ class StadionController extends Controller
      */
     public function index()
     {
-        //
+        
+        // Mengembalikan view ke halaman selanjutnya
+        return view('kategori.kat-fasilitas'); // View ini harus berada di 'resources/views/kategori/kat-fasilitas.blade.php'
+    
     }
 
     /**
